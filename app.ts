@@ -3,6 +3,8 @@ import * as Database from "./config/database";
 import { getConfiguracaoServidor } from './config/config';
 import * as App from "./src";
 
+//Comentario de teste git
+
 console.log(`Running enviroment ${process.env.NODE_ENV || "dev"}`);
 
 //Starting Application Server
