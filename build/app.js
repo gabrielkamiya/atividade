@@ -4,6 +4,7 @@ const Server = require("./config/servidor");
 const Database = require("./config/database");
 const config_1 = require("./config/config");
 const App = require("./src");
+//Comentario de teste git
 console.log(`Running enviroment ${process.env.NODE_ENV || "dev"}`);
 //Starting Application Server
 const server = Server.init();
