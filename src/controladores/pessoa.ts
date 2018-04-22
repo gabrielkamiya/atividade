@@ -14,25 +14,4 @@ export default class Pessoa {
         res.sendStatus(500);
       });
   }
-
-  public cadastrar(req: Express.Request, res: Express.Response): void {
-    const LABEL: string = 'Pessoa';
-    const body: any = req.body;
-    
-    PessoaModel.create(body)
-    .then((result) => {
-    res.send(result);
-    console.log("sucesso");
-    })
-    
-    .catch(() => {
-    res.sendStatus(500);
-    console.log("erro");
-    });
-    
-    }
-    
-    
 }
-
-
