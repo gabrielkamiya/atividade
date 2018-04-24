@@ -1,8 +1,0 @@
-{
-    "bancoDados": {
-        "stringConexao": "mongodb://localhost:27017/aula2"
-    },
-    "servidor": {
-        "porta": 3000
-    }
-}
